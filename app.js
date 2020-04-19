@@ -28,9 +28,7 @@ const finalInterest = (principal, rate, time, interest) => {
 
 
 const interestCalculator = (arr) => {
-  let rate;
-  let interest;
-  const interestData = [];
+  let rate, interest, interestData = [];
   arr.forEach(data => {
      if (data.principal >= 2500 && data.time > 1 && data.time < 3) {
        rate = 3;
